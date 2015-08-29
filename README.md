@@ -2,30 +2,7 @@
 
 This is a gem to helper you quick create a share feature in you Rails apps.
 
-# Sites list
-
-* Facebook
-* Twitter
-* Douban
-* Google+
-* Weibo
-* QZone
-* Tencent Weibo
-* Renren
-* Hi Baidu
-* Kaixin001
-* Google Bookmark
-* Delicious
-* Tumblr
-* Plurk
-* Pinterest
-* Email
-
-## Screenshot
-
-<img src="http://l.ruby-china.org/photo/85fa930a43d622ba9653eb0f86df207c.png" width="220px" />
-
-## Install
+#This gem has been modified to work with foundation-icons
 
 In your `Gemfile`:
 
