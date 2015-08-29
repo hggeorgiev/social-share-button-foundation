@@ -42,7 +42,7 @@ window.SocialShareButton =
         SocialShareButton.openUrl("http://www.kaixin001.com/rest/records.php?url=#{url}&content=#{title}&style=11&pic=#{img}&aid=#{appkey}", popup)
       when "renren"
         SocialShareButton.openUrl("http://widget.renren.com/dialog/share?resourceUrl=#{url}&srcUrl=#{url}&title=#{title}&pic=#{img}&description=#{desc}", popup)
-      when "google_plus"
+      when "google-plus"
         SocialShareButton.openUrl("https://plus.google.com/share?url=#{url}", popup)
       when "google_bookmark"
         SocialShareButton.openUrl("https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=#{url}&title=#{title}", popup)
