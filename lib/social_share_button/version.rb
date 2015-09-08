@@ -1,3 +1,3 @@
-module SocialShareButton
-  VERSION = "0.1.9"
+module SocialShareButtonFoundation
+  VERSION = "0.0.1"
 end

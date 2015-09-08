@@ -1,5 +1,5 @@
 # coding: utf-8
-module SocialShareButton
+module SocialShareButtonFoundation
   module Helper
     def social_share_button_tag(title = "", opts = {})
       extra_data = {}
@@ -8,12 +8,12 @@ module SocialShareButton
       html << "<div class='social-share-button' data-title='#{h title}' data-img='#{opts[:image]}'"
       html << "data-url='#{opts[:url]}' data-desc='#{opts[:desc]}' data-popup='#{opts[:popup]}' data-via='#{opts[:via]}'>"
 
-      SocialShareButton.config.allow_sites.each do |name|
+      SocialShareButtonFoundation.config.allow_sites.each do |name|
         extra_data = opts.select { |k, _| k.to_s.start_with?('data') } if name.eql?('tumblr')
         special_data = opts.select { |k, _| k.to_s.start_with?('data-' + name) }
 
         link_title = t "social_share_button.share_to", :name => t("social_share_button.#{name.downcase}")
-        html << link_to(raw("<i> class='hi-icon fi-social-#{name.downcase} size-40' </i>"),"#", {:rel => ["nofollow", rel],
+        html << link_to(raw("<i class=' fi-social-#{name.downcase} size-40'> </i>"),"#", {:rel => ["nofollow", rel],
                                   "data-site" => name,
                                   :class => "social-share-button-#{name}",
                                   :onclick => "return SocialShareButton.share(this);",

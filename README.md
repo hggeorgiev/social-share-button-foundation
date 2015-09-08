@@ -7,7 +7,7 @@ This is a gem to helper you quick create a share feature in you Rails apps.
 In your `Gemfile`:
 
 ```ruby
-gem 'social-share-button'
+gem 'social-share-button-foundation'
 ```
 
 And install it:
@@ -96,8 +96,3 @@ Here are the mapping of attributes depending on you data-type parameter
 | quote             | title     | data-quote                 |
 |                   |           | data-source                |
 </pre>
-
-
-## Demo
-
-[http://ruby-china.org/wiki/about](http://ruby-china.org/wiki/about)

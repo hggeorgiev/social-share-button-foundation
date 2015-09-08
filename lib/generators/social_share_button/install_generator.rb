@@ -1,4 +1,4 @@
-module SocialShareButton
+module SocialShareButtonFoundation
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       desc "Copy SocialShareButton default files"

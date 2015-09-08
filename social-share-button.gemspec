@@ -1,29 +1,40 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "social_share_button/version"
+# stub: social-share-button 0.1.9 ruby lib
 
 Gem::Specification.new do |s|
-  s.name        = "social-share-button"
-  s.version     = SocialShareButton::VERSION
-  s.authors     = ["Jason Lee"]
-  s.email       = ["huacnlee@gmail.com"]
-  s.homepage    = "http://github.com/huacnlee/social-share-button"
-  s.summary     = %q{Helper for add social share feature in your Rails app. Twitter, Facebook, Weibo, Douban, QQ, Tumblr ...}
-  s.description = %q{Helper for add social share feature in your Rails app. Twitter, Facebook, Weibo, Douban, QQ, Tumblr ...}
-  s.license     = 'MIT'
-    
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- {bin}/*`.split("\n").map{ |f| File.basename(f) }
+  s.name = "social-share-button-foundation"
+  s.version = "0.0.1"
+
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
+  s.authors = ["Hristo Georgiev"]
+  s.date = "2015-08-29"
+  s.description =  "Helper for adding social share buttons using foundation-icons"
+  s.email = ["hgeorgievkzr@gmail.com"]
+  s.files = ["Changelogs.md", "README.md", "app/assets/javascripts/social-share-button.coffee", "app/assets/stylesheets/social-share-button.scss", "lib/generators", "lib/generators/social_share_button", "lib/generators/social_share_button/install_generator.rb", "lib/generators/social_share_button/templates", "lib/generators/social_share_button/templates/config", "lib/generators/social_share_button/templates/config/initializers", "lib/generators/social_share_button/templates/config/initializers/social_share_button.rb", "lib/generators/social_share_button/templates/config/locales", "lib/generators/social_share_button/templates/config/locales/social_share_button.en.yml", "lib/generators/social_share_button/templates/config/locales/social_share_button.zh-CN.yml", "lib/generators/social_share_button/templates/config/locales/social_share_button.zh-TW.yml", "lib/social-share-button.rb", "lib/social_share_button", "lib/social_share_button/config.rb", "lib/social_share_button/engine.rb", "lib/social_share_button/helper.rb", "lib/social_share_button/railtie.rb", "lib/social_share_button/version.rb"]
+  s.homepage = "http://github.com/huacnlee/social-share-button"
+  s.licenses = ["MIT"]
+  s.rubygems_version = "2.4.8"
+  s.summary = "Helper for adding social share buttons using foundation-icons"
 
+  if s.respond_to? :specification_version then
+    s.specification_version = 4
 
-  # specify any dependencies here; for example:
-  s.files        = Dir.glob("{bin,lib,app/assets/javascripts,app/assets/stylesheets}/**/*")
-  s.files       += %w(README.md Changelogs.md)
-  s.files       += %w(app/assets/images/sprites/social-share-button.png app/assets/images/sprites/social-share-button@2x.png)
-  s.add_development_dependency "rails"
-  s.add_runtime_dependency "coffee-rails"
-  s.add_runtime_dependency "sass-rails"
-  # s.add_runtime_dependency "rest-client"
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+      s.add_development_dependency(%q<rails>, [">= 0"])
+      s.add_runtime_dependency(%q<coffee-rails>, [">= 0"])
+      s.add_runtime_dependency(%q<sass-rails>, [">= 0"])
+      s.add_runtime_dependency(%q<foundation-icons-sass-rails> , [">= 0"])
+    else
+      s.add_dependency(%q<rails>, [">= 0"])
+      s.add_dependency(%q<coffee-rails>, [">= 0"])
+      s.add_dependency(%q<sass-rails>, [">= 0"])
+      s.add_dependency(%q<foundation-icons-sass-rails> , [">= 0"])
+    end
+  else
+    s.add_dependency(%q<rails>, [">= 0"])
+    s.add_dependency(%q<coffee-rails>, [">= 0"])
+    s.add_dependency(%q<sass-rails>, [">= 0"])
+    s.add_dependency(%q<foundation-icons-sass-rails> , [">= 0"])
+  end
 end

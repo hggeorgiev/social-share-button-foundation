@@ -32,16 +32,6 @@ window.SocialShareButton =
         SocialShareButton.openUrl("http://shuo.douban.com/!service/share?href=#{url}&name=#{title}&image=#{img}&sel=#{desc}",popup)
       when "facebook"
         SocialShareButton.openUrl("http://www.facebook.com/sharer.php?u=#{url}",popup)
-      when "qq"
-        SocialShareButton.openUrl("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=#{url}&title=#{title}&pics=#{img}&summary=#{desc}&site=#{appkey}", popup)
-      when "tqq"
-        SocialShareButton.openUrl("http://share.v.t.qq.com/index.php?c=share&a=index&url=#{url}&title=#{title}&pic=#{img}&appkey=#{appkey}", popup)
-      when "baidu"
-        SocialShareButton.openUrl("http://hi.baidu.com/pub/show/share?url=#{url}&title=#{title}&content=#{desc}", popup)
-      when "kaixin001"
-        SocialShareButton.openUrl("http://www.kaixin001.com/rest/records.php?url=#{url}&content=#{title}&style=11&pic=#{img}&aid=#{appkey}", popup)
-      when "renren"
-        SocialShareButton.openUrl("http://widget.renren.com/dialog/share?resourceUrl=#{url}&srcUrl=#{url}&title=#{title}&pic=#{img}&description=#{desc}", popup)
       when "google-plus"
         SocialShareButton.openUrl("https://plus.google.com/share?url=#{url}", popup)
       when "google_bookmark"

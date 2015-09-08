@@ -1,5 +1,5 @@
 # coding: utf-8
-module SocialShareButton
+module SocialShareButtonFoundation
   module Rails
     class Railtie < ::Rails::Railtie
     end

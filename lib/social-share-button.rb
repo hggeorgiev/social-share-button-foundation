@@ -2,9 +2,9 @@ require "social_share_button/version"
 require "social_share_button/config"
 require "social_share_button/helper"
 
-I18n.load_path += Dir.glob( File.dirname(__FILE__) + "lib/locales/*.{rb,yml}" ) 
+I18n.load_path += Dir.glob( File.dirname(__FILE__) + "lib/locales/*.{rb,yml}" )
 
-module SocialShareButton
+module SocialShareButtonFoundation
   module Rails
     if ::Rails.version < "3.1"
       require "social_share_button/railtie"
@@ -14,4 +14,4 @@ module SocialShareButton
   end
 end
 
-ActionView::Base.send :include, SocialShareButton::Helper
+ActionView::Base.send :include, SocialShareButtonFoundation::Helper
