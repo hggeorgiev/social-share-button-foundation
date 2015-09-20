@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# stub: social-share-button 0.1.9 ruby lib
+# stub: social-share-button-foundation 0.1.9 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "social-share-button-foundation"
@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.date = "2015-08-29"
   s.description =  "Helper for adding social share buttons using foundation-icons"
   s.email = ["hgeorgievkzr@gmail.com"]
-  s.files = ["Changelogs.md", "README.md", "app/assets/javascripts/social-share-button.coffee", "app/assets/stylesheets/social-share-button.scss", "lib/generators", "lib/generators/social_share_button", "lib/generators/social_share_button/install_generator.rb", "lib/generators/social_share_button/templates", "lib/generators/social_share_button/templates/config", "lib/generators/social_share_button/templates/config/initializers", "lib/generators/social_share_button/templates/config/initializers/social_share_button.rb", "lib/generators/social_share_button/templates/config/locales", "lib/generators/social_share_button/templates/config/locales/social_share_button.en.yml", "lib/generators/social_share_button/templates/config/locales/social_share_button.zh-CN.yml", "lib/generators/social_share_button/templates/config/locales/social_share_button.zh-TW.yml", "lib/social-share-button.rb", "lib/social_share_button", "lib/social_share_button/config.rb", "lib/social_share_button/engine.rb", "lib/social_share_button/helper.rb", "lib/social_share_button/railtie.rb", "lib/social_share_button/version.rb"]
-  s.homepage = "http://github.com/huacnlee/social-share-button"
+  s.files = ["Changelogs.md", "README.md", "app/assets/javascripts/social-share-button-foundation.coffee", "app/assets/stylesheets/social-share-button-foundation.scss", "lib/generators", "lib/generators/social_share_button_foundation", "lib/generators/social_share_button_foundation/install_generator.rb", "lib/generators/social_share_button_foundation/templates", "lib/generators/social_share_button_foundation/templates/config", "lib/generators/social_share_button_foundation/templates/config/initializers", "lib/generators/social_share_button_foundation/templates/config/initializers/social_share_button_foundation.rb", "lib/generators/social_share_button_foundation/templates/config/locales", "lib/generators/social_share_button_foundation/templates/config/locales/social_share_button_foundation.en.yml", "lib/generators/social_share_button_foundation/templates/config/locales/social_share_button_foundation.zh-CN.yml", "lib/generators/social_share_button_foundation/templates/config/locales/social_share_button_foundation.zh-TW.yml", "lib/social-share-button-foundation.rb", "lib/social_share_button_foundation", "lib/social_share_button_foundation/config.rb", "lib/social_share_button_foundation/engine.rb", "lib/social_share_button_foundation/helper.rb", "lib/social_share_button_foundation/railtie.rb", "lib/social_share_button_foundation/version.rb"]
+  s.homepage = "http://github.com/kaizeras/social-share-button-foundation"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.8"
   s.summary = "Helper for adding social share buttons using foundation-icons"
