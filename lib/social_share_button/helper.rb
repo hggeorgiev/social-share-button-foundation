@@ -12,7 +12,7 @@ module SocialShareButtonFoundation
         extra_data = opts.select { |k, _| k.to_s.start_with?('data') } if name.eql?('tumblr')
         special_data = opts.select { |k, _| k.to_s.start_with?('data-' + name) }
 
-        link_title = t "social_share_button.share_to", :name => t("social_share_button.#{name.downcase}")
+        link_title = t "social_share_button_foundation.share_to", :name => t("social_share_button.#{name.downcase}")
         html << link_to(raw("<i class=' fi-social-#{name.downcase} size-40'> </i>"),"#", {:rel => ["nofollow", rel],
                                   "data-site" => name,
                                   :class => "social-share-button-#{name}",
