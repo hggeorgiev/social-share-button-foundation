@@ -1,7 +1,7 @@
 # coding: utf-8
 module SocialShareButtonFoundation
   module Helper
-    def social_share_button_tag(title = "", opts = {})
+    def social_share_button_foundation_tag(title = "", opts = {})
       extra_data = {}
       rel = opts[:rel]
       html = []
