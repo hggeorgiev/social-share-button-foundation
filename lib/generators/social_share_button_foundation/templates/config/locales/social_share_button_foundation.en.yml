@@ -1,6 +1,6 @@
 en:
   social_share_button_foundation:
-    share_to: Share to %{name}
+    share-to: Share to %{name}
     weibo: Sina Weibo
     twitter: Twitter
     facebook: Facebook
@@ -11,8 +11,8 @@ en:
     baidu: Baidu.com
     kaixin001: Kaixin001.com
     renren: Renren.com
-    google_plus: Google+
-    google_bookmark: Google Bookmark
+    google-plus: Google+
+    google-bookmark: Google Bookmark
     tumblr: Tumblr
     plurk: Plurk
     pinterest: Pinterest
