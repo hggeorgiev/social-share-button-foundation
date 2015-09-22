@@ -112,5 +112,8 @@ Here are the mapping of attributes depending on you data-type parameter
 |                   |           | data-source                |
 </pre>
 
-
+TODO:
+*Find an icon set with more social icons
+*Options for easier styling
+*Everything
 Licensed under MIT
