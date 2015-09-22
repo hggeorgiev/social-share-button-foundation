@@ -113,7 +113,9 @@ Here are the mapping of attributes depending on you data-type parameter
 </pre>
 
 TODO:
-*Find an icon set with more social icons
-*Options for easier styling
-*Everything
+* Find a set with more social icons
+* Add options for easier styling
+* Everything
+
+
 Licensed under MIT
